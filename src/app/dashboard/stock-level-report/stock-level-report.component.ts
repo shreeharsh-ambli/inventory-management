@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-stock-level-report',
+  selector: 'stock-level-report',
   templateUrl: './stock-level-report.component.html',
   styleUrls: ['./stock-level-report.component.css']
 })

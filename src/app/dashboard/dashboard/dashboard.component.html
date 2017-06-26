@@ -1,3 +1,5 @@
-<p>
-  dashboard works!
-</p>
+<md-grid-list cols="3" rowHeight="2:1">
+  <md-grid-tile [colspan]="2"><low-stock></low-stock></md-grid-tile>
+  <md-grid-tile><transact></transact></md-grid-tile>
+  <md-grid-tile [colspan]="2"><stock-level-report></stock-level-report></md-grid-tile>
+</md-grid-list>

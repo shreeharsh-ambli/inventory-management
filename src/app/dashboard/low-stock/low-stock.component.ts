@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-low-stock',
+  selector: 'low-stock',
   templateUrl: './low-stock.component.html',
   styleUrls: ['./low-stock.component.css']
 })
