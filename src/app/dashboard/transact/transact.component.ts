@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./transact.component.css']
 })
 export class TransactComponent implements OnInit {
+  title = "Transact";
   transactionTypes = [
-    {value: 'purchase', viewValue: 'Purchase'},
-    {value: 'sale', viewValue: 'Sale'}
+    { value: 'purchase', viewValue: 'Purchase' },
+    { value: 'sale', viewValue: 'Sale' }
   ];
 
   constructor() { }
