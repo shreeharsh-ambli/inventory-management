@@ -1,4 +1,20 @@
+<div class="panel panel-default">
+  <div class="panel-heading">Transact</div>
+  <div class="panel-body">
+    <md-input-container class="inlineItem">
+      <input mdInput placeholder="Product">
+    </md-input-container>
 
-  <p>
-    transact works!
-  </p>
+    <md-select placeholder="Transaction type" class="inlineItem">
+      <md-option *ngFor="let type of transactionTypes" [value]="type.value">
+        {{ type.viewValue }}
+      </md-option>
+    </md-select>
+
+    <md-input-container class="inlineItem">
+      <input mdInput placeholder="Qty">
+    </md-input-container>
+
+    <button type="button" class="btn btn-primary inlineItem right">Submit</button>
+  </div>
+</div>
