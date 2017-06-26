@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./stock-level-report.component.css']
 })
 export class StockLevelReportComponent implements OnInit {
+  title = "Stock level report";
 
   constructor() { }
 
