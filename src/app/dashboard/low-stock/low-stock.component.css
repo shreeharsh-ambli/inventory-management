@@ -1,3 +1,8 @@
 .footer{
     height: 55px;
 }
+
+.center{
+    margin: auto;
+    width: 235px;
+}
