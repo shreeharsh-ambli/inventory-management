@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./low-stock.component.css']
 })
 export class LowStockComponent implements OnInit {
+  title = "Low Stock";
 
   constructor() { }
 
