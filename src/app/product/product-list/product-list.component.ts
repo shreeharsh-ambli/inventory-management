@@ -16,7 +16,10 @@ export class ProductListComponent implements OnInit {
   ngOnInit() {
   }
 
-  edit() {
-    this.dialog.open(EditProductComponent,{ width: '400px'});
+  edit(data) {
+    this.dialog.open(EditProductComponent, {
+      width: '400px',
+      data: {product: "product name", threshold: 1234}
+    });
   }
 }
