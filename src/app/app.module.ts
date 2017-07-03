@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdTabsModule, MdDialog, MdDialogRef, MdDialogContainer, MdDialogModule } from '@angular/material';
+import { MdTabsModule, MdDialogContainer, MdDialogModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { DashboardModule } from './dashboard/dashboard.module';
@@ -25,7 +25,6 @@ const appRoutes: Routes = [
     DashboardModule,
     ProductModule
   ],
-  providers: [MdDialog],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

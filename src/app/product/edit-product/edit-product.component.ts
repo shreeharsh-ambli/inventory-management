@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MdDialogModule } from '@angular/material';
 
 @Component({
   selector: 'edit-product',

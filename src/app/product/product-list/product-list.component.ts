@@ -17,6 +17,6 @@ export class ProductListComponent implements OnInit {
   }
 
   edit() {
-    this.dialog.open(EditProductComponent)
+    this.dialog.open(EditProductComponent,{ width: '400px'});
   }
 }

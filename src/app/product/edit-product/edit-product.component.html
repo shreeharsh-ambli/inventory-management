@@ -1,3 +1,18 @@
-<p>
-  edit-product works!
-</p>
+<h3 md-dialog-title>Edit Product</h3>
+
+<md-dialog-content>
+  <form>
+    <md-input-container class="full-width">
+      <input mdInput placeholder="Product">
+    </md-input-container>
+    <br>
+    <md-input-container>
+      <input mdInput placeholder="Threshold">
+    </md-input-container>
+  </form>
+</md-dialog-content>
+
+<md-dialog-actions class="pull-right">
+  <button class="btn btn-default dialog-action" md-dialog-close>Cancel</button>
+  <button class="btn btn-primary dialog-action" md-dialog-close>Save Changes</button>
+</md-dialog-actions>
